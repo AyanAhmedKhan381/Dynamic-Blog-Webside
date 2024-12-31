@@ -3,7 +3,7 @@ import React from 'react'
 import { IoReturnDownBack } from 'react-icons/io5'
 import Logo from '../Navbar/Logo';
 
-const StudioHeader = ({ renderDefault, props }: { renderDefault?: Function; props?: any }) => {
+const StudioHeader = ({ renderDefault, props }:any) => {
   return (
     <div className=''>
       <div className='p-3.5 text-white bg-gradient-to-r from-purple-500 to-pink-600 flex items-center justify-between'>
